@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+     "lib": [
+        "es5",
+        "es6",
+        "ES2021",
+        "DOM"
+     ],
+     "target": "ES6",
+     "module": "commonjs",
+     "moduleResolution": "node",
+     "outDir": "./dist",
+     "rootDir": "./src",
+     "esModuleInterop":true,
+     "emitDecoratorMetadata": true,
+     "experimentalDecorators": true,
+     "sourceMap": true,
+  },
+  "include": [
+   "src/**/*.ts",
+   "src/**/**/*.d.ts",
+ ],
+ "exclude": [
+   "node_modules",
+   "**/puppeteer"
+ ],
+}
